@@ -1,0 +1,50 @@
+#1
+
+per1 = 5
+print(per1)
+per2 = 10
+print(per2)
+
+per1 = int(input("Введите число 1"))
+per2 = str(input("Введите строку 1"))
+
+print(per1)
+print(per2)
+
+#2
+
+sec = int(input"Введите колличество секунд=>")
+h = sec//3600
+m = (sec//60)%60
+s = sec%60
+
+print(f'{h:02} : {m:02} : {s:02}')
+
+
+
+#3
+
+n = int(input("Введите число n: "))
+numb = str(n)
+n1 = numb + numb
+n2 = numb + numb + numb
+summ = n + int(n1) + int(n2)
+print("Результат равен:", summ)
+
+#4
+
+a = int(input())
+m = a%10
+a = a//10
+while a > 0:
+    if a%10 > m:
+        m = a%10
+    a = a//10
+print(m)
+
+#сам недодумался, подсмотрел решение(
+
+#5
+
+
+
